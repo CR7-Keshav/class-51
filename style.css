@@ -1,0 +1,36 @@
+h1{
+    color: aqua;
+}
+
+.header{
+    background-color: cadetblue;
+    display: flex;
+    justify-content:space-between;
+}
+.manual{
+    display:flex;
+    margin-right: 30 ;
+    justify-content: space-evenly;
+}
+.description{
+    display:flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+p,h2{
+    color: orangered;
+    text-align: center;
+}
+body{
+background-image: url("back.jpeg");
+background-size: cover;
+}
